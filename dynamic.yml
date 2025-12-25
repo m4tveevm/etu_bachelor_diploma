@@ -1,4 +1,0 @@
-tls:
-  certificates:
-    - certFile: "/run/secrets/tls_cert"
-      keyFile: "/run/secrets/tls_key"

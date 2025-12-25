@@ -69,6 +69,7 @@ function UserProfile() {
       </div>
 
       {/* Модальное окно */}
+      {/* todo надо бы поменять формат отображения, текущая модалка не удобная. Модальное окно вынести во внешний компонент*/}
       {showModal && (
         <div className="modal show d-block" tabIndex="-1" role="dialog">
           <div className="modal-dialog modal-dialog-centered" role="document">
